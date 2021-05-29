@@ -1,3 +1,4 @@
 [build]
   functions = "netlify-lambda-lib"
+  publish = "public/"
   command = "npm run download && npm run build"
