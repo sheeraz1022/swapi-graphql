@@ -3,6 +3,6 @@
   publish = "public/"
   command = "npm run download && npm run build"
 [[redirects]]
-  from = "/graphql/*"
+  from = "/sheeraz"
   to = "/.netlify/functions/index"
   status = 200
