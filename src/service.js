@@ -18,7 +18,7 @@ const app = express();
 app.use(cors({ origin: '*' }));
 
 // Requests to /graphql redirect to /
-app.all('/graphql', (req, res) => res.redirect('/'));
+// app.all('/graphql', (req, res) => res.redirect('/'));
 
 // Load our own GraphiQL (since express-graphql has an older graphiql version)
 app.use('/graphiql', express.static('./public'));
